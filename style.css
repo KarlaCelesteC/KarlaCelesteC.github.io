@@ -1,0 +1,46 @@
+*{
+    font-family: "Ruda", sans-serif;
+}
+header{
+    background-color: #1E0342;
+}
+header span{
+color: #E1F7F5;
+}
+.nav-item a{
+    color:#E1F7F5
+}
+.nav-item a:visited{
+    color: #F8EDED;
+}
+.nav-item a:hover{
+    color: #0E46A3;
+}
+
+#nav-button{
+    background-color: #0E46A3;
+}
+.feature-icon .bi{
+    color:#1E0342 ;
+    font-size: 2em;  
+}
+.img-proyecto1{
+    background-image: url(/assets/clon-pin.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img-proyecto1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+    pointer-events: none; 
+}
+.img-proyecto1 .d-flex.flex-column {
+    position: relative;
+    z-index: 2; 
+}
