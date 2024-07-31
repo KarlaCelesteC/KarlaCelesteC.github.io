@@ -20,12 +20,12 @@ color: #E1F7F5;
 #nav-button{
     background-color: #0E46A3;
 }
-.feature-icon .bi{
+.feature-icon .icono-habilidasdes{
     color:#1E0342 ;
     font-size: 2em;  
 }
 .img-proyecto1{
-    background-image: url(/assets/clon-pin.png);
+    background-image: url('/assets/clon-pin.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -43,4 +43,17 @@ color: #E1F7F5;
 .img-proyecto1 .d-flex.flex-column {
     position: relative;
     z-index: 2; 
+}
+footer{
+    background-color: #9AC8CD;
+}
+
+footer.icon-footer i{
+color:#cf3d19 ;
+}
+footer p{
+   color: #1E0342; 
+}
+footer p a{
+    color:#0E46A3; 
 }

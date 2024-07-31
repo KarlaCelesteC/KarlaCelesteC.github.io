@@ -14,6 +14,8 @@
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!--Iconos bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--favicon-->
+    <link rel="shortcut icon" href="/assets/pc-display.svg" type="image/x-icon">
     <!--enlace con css-->
     <link rel="stylesheet" href="style.css">
   <title>Chavez Castillo Karla Celeste</title>
@@ -60,7 +62,7 @@
           <div class="feature col">
             <div
               class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3 ">
-              <i class="bi bi-laptop " width="1em" height="1em"></i>
+              <i class="bi bi-laptop icono-habilidasdes" width="1em" height="1em"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">Desarrollo web</h3>
             <p>He credo sitios web responsivos aplicando los conocimientos obtenidos durante el bootcamp de Tecnolochicas PRO.</p>
@@ -69,7 +71,7 @@
           <div class="feature col">
             <div
               class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-              <i class="bi bi-chat"></i>
+              <i class="bi bi-chat icono-habilidasdes"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">Inglés</h3>
             <p>He cursado 8 niveles del curso de Ingles del Centro de idiomas de la Universidad Autónoma
@@ -79,7 +81,7 @@
           <div class="feature col">
             <div
               class="feature-icon d-inline-flex align-items-center justify-content-center  bg-gradient fs-2 mb-3">
-              <i class="bi bi-pencil-fill"></i>
+              <i class="bi bi-pencil-fill icono-habilidasdes"></i>
             </div>
             <h3 class="fs-2 text-body-emphasis">Estudiante</h3>
             <p>He trabajado en un negocio faliliar de abarrotes en el area de caja. </p>
@@ -180,6 +182,7 @@
       </div>
     </section>
     <!--carrusel-->
+    
     <section id="Testimonios">
       <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -200,10 +203,32 @@
             
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <div class="d-flex justify-content-center">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/testimonio1.jpg" class="rounded-circle card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              </div>
           </div>
           <div class="carousel-item">
-            <img src="..." class="d-block w-100" alt="...">
+            <div class="d-flex justify-content-center">
+              <div class="card border-0" style="width: 18rem;">
+                <img src="assets/testimonio1.jpg" class="rounded-circle card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title text-center">Card title</h5>
+                  <div class="card-header">
+                    Featured
+                  </div>
+                  <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+              </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -217,26 +242,21 @@
       </div>
     </section>
     <section id="contacto">
+      
       <div class="container my-5">
         <div class="p-5 text-center bg-body-tertiary rounded-3">
-          <svg class="bi mt-4 mb-3" style="color: var(--bs-indigo);" width="100" height="100">
-            <use xlink:href="#bootstrap"></use>
-          </svg>
-          <h1 class="text-body-emphasis">Jumbotron with icon</h1>
+          
+          <i class="bi bi-envelope-at" style="font-size: 3rem; color: #1E0342;"></i>
+          <h1 class="text-body-emphasis">Contacto</h1>
           <p class="col-lg-8 mx-auto fs-5 text-muted">
-            This is a custom jumbotron featuring an SVG image at the top, some longer text that wraps early thanks to a
-            responsive <code>.col-*</code> class, and a customized call to action.
+            Contáctame para iniciar un proyecto de desarrollo web.
           </p>
           <div class="d-inline-flex gap-2 mb-5">
-            <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
-              Call to action
-              <svg class="bi ms-2" width="24" height="24">
-                <use xlink:href="#arrow-right-short"></use>
-              </svg>
-            </button>
+            <a href="mailto:karlacelestechavezcastillo@gmail.com">
             <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
               Secondary link
             </button>
+          </a>
           </div>
         </div>
       </div>
@@ -245,14 +265,13 @@
   </main>
 
   <footer class="py-3 my-4">
-    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-      <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+    <ul class="nav justify-content-center  pb-3 mb-3">
+      <li class="nav-item"><a href="https://github.com/KarlaCelesteC" target="_blank" class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-github"></i></a></li>
+      <li class="nav-item"><a href="#" target="_blank"  class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-linkedin"></i></a></li>
+      <li class="nav-item"><a href="#" target="_blank"  class="nav-link px-2 text-body-secondary icon-footer"><i class="bi bi-twitter-x"></i></a></li>
+     
     </ul>
-    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    <p class="text-center ">Creado por Karla Celeste Chavez Castillo en el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnolchicas PRO</a></p>
   </footer>
 
   <!--script Bootstrap-->
